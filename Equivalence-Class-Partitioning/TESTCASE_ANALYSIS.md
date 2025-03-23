@@ -34,7 +34,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The main goal of ECP is to reduce the total number of test cases without sacrificing test coverage. This is achieved by identifying classes of inputs where the system should respond identically and then designing test cases around those classes. Each partition should be complete (covering all relevant input scenarios) and disjoint (no overlapping values).
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Typical applications involve separating inputs into valid and invalid categories. For example, suppose we want to test a system that evaluates whether a student has passed or failed a course based on their combined score. According to the requirements, a passing (valid) score falls between 50 and 100, while a failing score is would fall between 0 and 49. Any score less than 0 or greater than 100 would considered invalid.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Typical applications involve separating inputs into valid and invalid categories. [^4]For example, suppose we want to test a system that evaluates whether a student has passed or failed a course based on their combined score. According to the requirements, a passing (valid) score falls between 50 and 100, while a failing score is would fall between 0 and 49. Any score less than 0 or greater than 100 would considered invalid.
 
 Based on these requirements, the equivalence classes can be defined as:
 
@@ -112,7 +112,7 @@ While Equivalence Class Partitioning is a powerful technique for minimizing redu
 
 ---
 
-# References
+### References
 
 [^1]: Burnstein, I. (2002). Practical Software Testing. Springer-Verlag New York, Inc.
 
@@ -123,10 +123,3 @@ While Equivalence Class Partitioning is a powerful technique for minimizing redu
 [^4]: GeeksforGeeks (2024, August 2). Equivalence Class Partitioning: A Complete Guide. https://www.geeksforgeeks.org/equivalence-partitioning-method/#
 
 ---
-
-## Author
-John Michael Kreski  
-Regis University  
-Professor Randall Granier  
-MSSE 640, Software Quality and Testing  
-Masters of Software Engineering    
