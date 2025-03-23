@@ -13,10 +13,7 @@
     - [When Should This Type of Testing Be Used?](#when-should-this-type-of-testing-be-used)
 - [Limitations](#limitations)
 - [Conclusion](#conclusion)
-- [Author](#author)
 - [References](#references)
-
----
 
 ---
 
@@ -112,7 +109,7 @@ While Equivalence Class Partitioning is a powerful technique for minimizing redu
 
 ---
 
-### References
+#### References
 
 [^1]: Burnstein, I. (2002). Practical Software Testing. Springer-Verlag New York, Inc.
 
@@ -122,4 +119,4 @@ While Equivalence Class Partitioning is a powerful technique for minimizing redu
 
 [^4]: GeeksforGeeks (2024, August 2). Equivalence Class Partitioning: A Complete Guide. https://www.geeksforgeeks.org/equivalence-partitioning-method/#
 
----
+
