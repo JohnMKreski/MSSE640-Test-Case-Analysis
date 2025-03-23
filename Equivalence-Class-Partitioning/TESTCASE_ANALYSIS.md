@@ -1,7 +1,7 @@
 # Equivalence Class Partitioning
+#### John Michael Kreski, _Regis University_
+##### MSSE640 - _Software Quality and Testing_. Granier, Randall
 #### *Week 2* - 03/23/2025
-#### John Michael Kreski, Regis University
-##### MSSE640 - Software Quality and Testing, Granier, Randall
 
 ---
 
@@ -11,7 +11,7 @@
 - [Test Case Analysis](#test-case-analysis)
     - [Defining Equivalence Classes](#defining-equivalence-classes)
     - [When Should This Type of Testing Be Used?](#when-should-this-type-of-testing-be-used)
-- [Limitations](#limitations)
+    - [Limitations](#limitations)
 - [Conclusion](#conclusion)
 - [References](#references)
 
@@ -71,7 +71,6 @@ To test the program efficiently, one representative value is selected from each 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By testing one representative value from each class, we verify that the program correctly distinguishes between passing, failing, and invalid inputs without unnecessary repetition.  
 [_Example Continued with Source Code_](./Example.md)
 
----
 
 ## When Should This Type of Testing Be Used?
 
@@ -84,10 +83,8 @@ Equivalence Class Partitioning is particularly useful in scenarios where:
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This technique is widely applied in software validation scenarios such as input validation checks, boundary testing, and form field validation, making it a practical approach in software quality assurance.[^3]
 
----
 
-
-# Limitations
+## Limitations
 
 While Equivalence Class Partitioning is a powerful technique for minimizing redundant test cases, it has limitations:
 - **Misses boundary value defects**: ECP assumes that all values within a class behave the same, which may overlook edge-case issues. Pairing it with Boundary Value Analysis (BVA) is often necessary.
