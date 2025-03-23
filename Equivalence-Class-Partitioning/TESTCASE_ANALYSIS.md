@@ -22,7 +22,7 @@
 
 # Introduction
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Equivalence Class Partitioning (ECP) is a black-box testing technique used to reduce the number of test cases while maintaining effective coverage. In this method, input data is divided into partitions, or equivalence classes, that group valid and invalid test cases. The underlying principle is that testing a single representative from each class is sufficient because all values within the same partition are expected to yield similar results. As Burnstein [^1] states, “if one test case in a particular equivalence class reveals a defect, all the other test cases based on that class would be expected to reveal the same defect.” Conversely, if a test case in one partition passes, then all other values in that partition should also pass.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Equivalence Class Partitioning (ECP) is a black-box testing technique used to reduce the number of test cases while maintaining effective coverage. In this method, input data is divided into partitions, or equivalence classes, that group valid and invalid test cases. The underlying principle is that testing a single representative from each class is sufficient because all values within the same partition are expected to yield similar results. As Burnstein states, “if one test case in a particular equivalence class reveals a defect, all the other test cases based on that class would be expected to reveal the same defect.”[^1] Conversely, if a test case in one partition passes, then all other values in that partition should also pass.
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This methodology operates on the black-box approach, where testing is based solely on input and output specifications rather than internal code structure. For instance, if a program determines whether a student passes or fails a course based on a numerical score, ECP would group valid and invalid scores into distinct classes. The details of this example and its test case analysis are explored below.
 
@@ -30,7 +30,7 @@
 
 # Test Case Analysis
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Equivalence Class Partitioning (ECP) centers on dividing the input domain of a system into partitions of data that are expected to exhibit similar behavior. Instead of individually testing every possible input, ECP enables the tester to select one representative value from each partition or "equivalence class." [^2] If the system behaves correctly for that representative value, it is assumed to behave correctly for all other values in that class.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Equivalence Class Partitioning (ECP) centers on dividing the input domain of a system into partitions of data that are expected to exhibit similar behavior. Instead of individually testing every possible input, ECP enables the tester to select one representative value from each partition or "equivalence class."[^2] If the system behaves correctly for that representative value, it is assumed to behave correctly for all other values in that class.
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The main goal of ECP is to reduce the total number of test cases without sacrificing test coverage. This is achieved by identifying classes of inputs where the system should respond identically and then designing test cases around those classes. Each partition should be complete (covering all relevant input scenarios) and disjoint (no overlapping values).
 
@@ -85,7 +85,7 @@ Equivalence Class Partitioning is particularly useful in scenarios where:
 - **Time and resource efficiency are priorities** – Since fewer test cases are needed, testing efforts can focus on broader functionality without exhaustive input testing.
 - **Black-box testing is preferred** – When testers do not need access to the internal code but only need to validate expected outputs against given inputs.
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This technique is widely applied in software validation scenarios such as input validation checks, boundary testing, and form field validation, making it a practical approach in software quality assurance. [^3]
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This technique is widely applied in software validation scenarios such as input validation checks, boundary testing, and form field validation, making it a practical approach in software quality assurance.[^3]
 
 ---
 
@@ -114,13 +114,13 @@ While Equivalence Class Partitioning is a powerful technique for minimizing redu
 
 # References
 
-[^1] Burnstein, I. (2002). Practical Software Testing. Springer-Verlag New York, Inc.
+[^1]: Burnstein, I. (2002). Practical Software Testing. Springer-Verlag New York, Inc.
 
-[^2] Shrike, M. (2023). Please explain the Equivalence partitioning technique? Software Testing 101. Retrieved March 20, 2025, from https://www.testing101.net/post/please-explain-the-equivalence-partitioning-technique
+[^2]: Shrike, M. (2023). Please explain the Equivalence partitioning technique? Software Testing 101. Retrieved March 20, 2025, from https://www.testing101.net/post/please-explain-the-equivalence-partitioning-technique
 
-[^3] Katalon (2025, January 22). Equivalence Class Partitioning: A Complete Guide. https://katalon.com/resources-center/blog/equivalence-class-partitioning-guide
+[^3]: Katalon (2025, January 22). Equivalence Class Partitioning: A Complete Guide. https://katalon.com/resources-center/blog/equivalence-class-partitioning-guide
 
-[^4] GeeksforGeeks (2024, August 2). Equivalence Class Partitioning: A Complete Guide. https://www.geeksforgeeks.org/equivalence-partitioning-method/#
+[^4]: GeeksforGeeks (2024, August 2). Equivalence Class Partitioning: A Complete Guide. https://www.geeksforgeeks.org/equivalence-partitioning-method/#
 
 ---
 
