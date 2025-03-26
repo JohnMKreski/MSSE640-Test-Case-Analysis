@@ -105,7 +105,7 @@ By testing just below and above the lower and upper bounds of each class (e.g., 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This technique helps to evaluate that the software behaves reliably not just under normal conditions, but also at the most critical boundary points, where errors are most likely to occur.
 
-[Example Continued with Source Code](#https://github.com/JohnMKreski/MSSE640-Test-Case-Analysis/blob/main/Boundary-Value-Analysis/Example.md)
+[_Example Continued with Source Code_](./Example.md)
 
 ### When Should This Type of Testing Be Used?
 
