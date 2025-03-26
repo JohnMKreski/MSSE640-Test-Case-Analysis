@@ -1,6 +1,6 @@
 # Boundary Value Analysis (BVA) — Student Score Evaluation
 
-This project demonstrates the **Boundary Value Analysis** (BVA) testing technique using the same student score evaluation program introduced in the Equivalence Class Partitioning (ECP) [example](#https://github.com/JohnMKreski/MSSE640-Test-Case-Analysis/blob/main/Equivalence-Class-Partitioning/Example.md). BVA focuses on testing values at and around the boundaries of defined input partitions to detect edge-related errors.
+This project demonstrates the **Boundary Value Analysis** (BVA) testing technique using the same student score evaluation program introduced in the Equivalence Class Partitioning (ECP) [example](https://github.com/JohnMKreski/MSSE640-Test-Case-Analysis/blob/main/Equivalence-Class-Partitioning/Example.md). BVA focuses on testing values at and around the boundaries of defined input partitions to detect edge-related errors.
 
 ---
 
