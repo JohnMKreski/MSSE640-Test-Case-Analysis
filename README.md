@@ -12,8 +12,8 @@ root/
 │   ├── Project/                 # Java program files 
 │   └── TESTCASE_ANALYSIS.md     # Analysis and explanation of the technique
 │
-├── Week 3/                   # Future weekly analysis and programs
-├── Week 4/
+├── Boundary-Value-Analysis/                   
+├── Decision-Tables/
 ├── Week 5/
 ├── Week 6/
 ├── Week 7/
