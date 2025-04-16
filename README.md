@@ -14,7 +14,7 @@ root/
 │
 ├── Boundary-Value-Analysis/                   
 ├── Decision-Tables/
-├── Week 5/
+├── PairWise/
 ├── Week 6/
 ├── Week 7/
 ├── Week 8/
